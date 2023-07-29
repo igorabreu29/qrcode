@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import HtmlQrCode from '../components/HtmlQrCode';
+import HtmlQrCode from './components/HtmlQrCode';
 
 export default function App() {
   const [decodedResults, setDecodedResults] = React.useState([]);
